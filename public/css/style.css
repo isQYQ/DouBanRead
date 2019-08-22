@@ -1,0 +1,17 @@
+html, body, #app-root, .app{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.page{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background: #fefefe;
+}
+.page.subpage{
+    bottom: 0;
+    z-index: 10;
+}

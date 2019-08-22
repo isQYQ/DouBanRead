@@ -1,0 +1,30 @@
+html,p,body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input,img,form,table,tr,td,select,input,fieldset,legend{
+    margin:0;padding: 0;
+}
+body{font-size: 12px;}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    border:none;
+}
+input{
+    border: none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+.fl{float: left;}
+.fr{float: right;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.clearfix::after{
+    content: "";height: 0;overflow: hidden;visibility: hidden;display: block;font-size: 0;clear: both;
+}
