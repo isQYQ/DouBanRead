@@ -31,13 +31,13 @@ const AppPanel = (props)=>{
           <Route path="/register" exact component={Register}/>
           <Route path="/cart" exact component={Cart}/>
           <Route path="/bookshelf" exact component={Bookshelf}/>
-          <Route component={NotFind}/>
-        </Switch>
 
         {/* 子页面 */}
         <Route path="/book/detail/to/cart" component={BookDetailToCart}/>
         <Route path="/book/detail/to/shelf" component={BookDetailToShelf}/>
 
+        <Route component={NotFind}/>
+        </Switch>
 
       </div>
     </Router>
