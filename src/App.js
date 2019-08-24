@@ -8,7 +8,6 @@ import NotFind from './pages/common/NotFind/NotFind'
 // 根页面
 const Home = lazy(()=>import('./pages/home/Home/Home'));
 const Login = lazy(()=>import('./pages/login/Login/Login'));
-const Register = lazy(()=>import('./pages/login/Register/Register'));
 const Mine = lazy(()=>import('./pages/mine/Mine'));
 const Cart = lazy(()=>import('./pages/cart/Cart'));
 const Bookshelf = lazy(()=>import('./pages/bookshelf/Bookshelf'));
@@ -28,7 +27,6 @@ const AppPanel = (props)=>{
           <Route path="/home" exact component={Home}/>
           <Route path="/mine" exact component={Mine}/>
           <Route path="/login" exact component={Login}/>
-          <Route path="/register" exact component={Register}/>
           <Route path="/cart" exact component={Cart}/>
           <Route path="/bookshelf" exact component={Bookshelf}/>
 
