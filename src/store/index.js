@@ -4,11 +4,13 @@ import { createStore, combineReducers, compose, applyMiddleware } from 'redux'
 // dispath接收一个函数，该函数执行，并且函数中重新接收到dispath方法
 import thunk from 'redux-thunk'
 // 引入各个reducer模块
+import home from './modules/home'
 import login from './modules/login'
 
 // 合并多个reducer
 const reducer = combineReducers({
-    login
+    login,
+    home
 });
 
 // 使用redux开发者工具
